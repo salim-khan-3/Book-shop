@@ -14,25 +14,31 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <nav class="navbar">
-      <div class="logo">
-        <a href="#" class="logo">পুরাতন<span>বই</span></a>
-      </div>
-      <div class="nav-links" id="navLinks">
-        <ul>
-          <li><a href="#">হোম</a></li>
-          <li><a href="#">বইসমূহ</a></li>
-          <li><a href="#">বিভাগ</a></li>
-          <li><a href="#">আমাদের সম্পর্কে</a></li>
-          <li><a href="#">যোগাযোগ</a></li>
-        </ul>
-        <input type="text" class="search-field" placeholder="Search..." />
-      </div>
-      <div class="menu-icon" id="menuIcon">
-        <i class="fa-solid fa-bars"></i>
-      </div>
-    </nav>
-
+    <header class="header">
+      <nav class="navbar">
+        <div class="logo">
+          <a href="#" class="logo">পুরাতন<span>বই</span></a>
+        </div>
+        <div class="nav-links" id="navLinks">
+          <ul>
+            <li><a href="#">হোম</a></li>
+            <li><a href="#">বইসমূহ</a></li>
+            <li><a href="#">বিভাগ</a></li>
+            <li><a href="#">আমাদের সম্পর্কে</a></li>
+            <li><a href="#">যোগাযোগ</a></li>
+          </ul>
+          <div class="search-field">
+            <input type="text"placeholder="Search..." />
+            <button class="Searchbtn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </div>
+        <div class="menu-icon" id="menuIcon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </header>
     <script src="./script.js"></script>
   </body>
 </html>
