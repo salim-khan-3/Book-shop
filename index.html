@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Navbar</title>
+    <title>পুরনো বই বাজার</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
@@ -19,26 +19,65 @@
         <div class="logo">
           <a href="#" class="logo">পুরাতন<span>বই</span></a>
         </div>
-        <div class="nav-links" id="navLinks">
-          <ul>
-            <li><a href="#">হোম</a></li>
-            <li><a href="#">বইসমূহ</a></li>
-            <li><a href="#">বিভাগ</a></li>
-            <li><a href="#">আমাদের সম্পর্কে</a></li>
-            <li><a href="#">যোগাযোগ</a></li>
-          </ul>
-          <div class="search-field">
-            <input type="text"placeholder="Search..." />
-            <button class="Searchbtn">
+        <div class="nav-right-container">
+          <div class="nav-links" id="navLinks">
+            <ul>
+              <li><a href="#">হোম</a></li>
+              <li><a href="#">বইসমূহ</a></li>
+              <li><a href="#">বিভাগ</a></li>
+              <li><a href="#">আমাদের সম্পর্কে</a></li>
+              <li><a href="#">যোগাযোগ</a></li>
+            </ul>
+            <div class="search-field">
+              <input type="text" placeholder="Search..." />
+              <button class="Searchbtn">
                 <i class="fa-solid fa-magnifying-glass"></i>
-            </button>
+              </button>
+            </div>
           </div>
-        </div>
-        <div class="menu-icon" id="menuIcon">
-          <i class="fa-solid fa-bars"></i>
+          <div class="menu-icon" id="menuIcon">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <div class="addTo-cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span id="cart-add">0</span>
+          </div>
         </div>
       </nav>
     </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>আপনার প্রিয় পুরনো বই খুঁজে নিন</h1>
+        <p>
+          বাংলাদেশের সবচেয়ে বড় পুরনো বইয়ের মার্কেটপ্লেস। হাজার হাজার বই
+          একত্রে।
+        </p>
+
+        <div class="search-box">
+          <input
+            type="text"
+            placeholder="বই, লেখক বা ক্যাটাগরি অনুসন্ধান করুন..."
+          />
+          <button>খুঁজুন</button>
+        </div>
+
+        <div class="stats">
+          <div class="stat-item">
+            <h3>10,000+</h3>
+            <p>বই</p>
+          </div>
+          <div class="stat-item">
+            <h3>5,000+</h3>
+            <p>সদস্য</p>
+          </div>
+          <div class="stat-item">
+            <h3>100%</h3>
+            <p>নির্ভরযোগ্য</p>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="./script.js"></script>
   </body>
 </html>
